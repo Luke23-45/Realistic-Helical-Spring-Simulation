@@ -1,4 +1,4 @@
-## Interactive Spring Simulation
+## Interactive Helical Spring Simulation
 
 This project is a C++ based interactive spring simulation using SDL2 library for graphics rendering. It visually simulates a spring with dynamic color and thickness changes based on its deformation, and allows users to interactively drag the spring to observe its behavior.
 
@@ -10,27 +10,26 @@ Ensure you have the following installed:
 - [SDL2](https://www.libsdl.org/)
 - [SDL2_ttf](https://www.libsdl.org/projects/SDL_ttf/)
 
-
 ## Project Structure
 
-*   `colorfull_ball.cc`: Main C++ source file containing the simulation logic and SDL2 rendering.
+*   `Spring.cc`: Main C++ source file containing the simulation logic and SDL2 rendering.
 *   `Makefile`: Build configuration file for compiling the project.
-*   `src/`: Source code directory.
-    *   `include/`:  Directory for header files (currently not used in this project, but can be used for future extensions).
-    *   `lib/`: Directory for SDL related libraries (not explicitly used in this project as SDL is assumed to be installed system-wide).
+*   `src/`
+    *   `include/`
+    *   `lib/`
 
 ### Installation
 1. Clone the repository:
     ```bash
-    git clone git@github.com:Luke23-45/Colorfull-Ball-with-Particle-Effect-Animation.git
+    git clone git@github.com:Luke23-45/Realistic-Helical-Spring-Simulation.git
     ```
 ## Building
 
 This project uses `make` for building. To build the project, run the following commands in your terminal:
 
-2. Navigate to the project directory:
+1. Navigate to the project directory:
     ```bash
-    cd Colorfull-Ball-with-Particle-Effect-Animation
+    cd Realistic-Helical-Spring-Simulation
     ```
 3. Compile the code using make:
     ```bash
@@ -38,7 +37,7 @@ This project uses `make` for building. To build the project, run the following c
     ```
 4. Run the executable (Linux/macOS):
     ```bash
-    ./Colorfull-Ball-with-Particle-Effect-Animation
+    ./main
     ```
 5. Run the executable (Windows):
     ```bash
@@ -69,9 +68,8 @@ This project uses `make` for building. To build the project, run the following c
 | Drag Spring       | Mouse Left Button   |
 | Exit simulation | Close the window    |
 
-
 ## Code Structure
-- `colorfull_ball.cc`: Contains all the source code for the spring simulation.
+- `Spring.cc`: Contains all the source code for the spring simulation.
 - `AdvancedSpringPhysics` Class:
     -  Handles the numerical simulation of the spring's physics, including properties like stiffness, damping, mass, and length constraints.
     -  Updates the spring's state (position, velocity) based on forces and user interaction.
@@ -92,7 +90,7 @@ This project uses `make` for building. To build the project, run the following c
 
 ## Demo Video
 Check out the project demo video on YouTube: [Project Demo Video](https://www.youtube.com/watch?v=McOcbGHyAWA)
-*(Note: Please replace this placeholder link with the actual demo video URL of your project.)*
+
 
 ## License
 
