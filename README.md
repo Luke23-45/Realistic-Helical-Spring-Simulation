@@ -16,7 +16,7 @@ Ensure you have the following installed:
 *   `Makefile`: Build configuration file for compiling the project.
 *   `src/`
     *   `include/`
-    *   `lib/`
+
 
 ### Installation
 1. Clone the repository:
