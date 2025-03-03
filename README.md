@@ -89,7 +89,7 @@ This project uses `make` for building. To build the project, run the following c
     -  Creates an instance of `SpringSimulation` and starts the simulation.
 
 ## Demo Video
-Check out the project demo video on YouTube: [Project Demo Video](https://www.youtube.com/watch?v=McOcbGHyAWA)
+Check out the project demo video on YouTube: https://youtu.be/HDTzYFRzg50
 
 
 ## License
